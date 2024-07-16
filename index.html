@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9b3aa3e7d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+    <title>Document</title>
+</head>
+<body>    
+      <div class="intro">
+        <video class="bgvid" muted loop autoplay src="./assert/bgvid.webm"></video>
+        <form class="Container">
+          <input class="fooditem" type="text">
+          <button type="submit"  class="searchbtn"><i class="fa fa-search" aria-hidden="true"></i> Search Recipe</button>
+          <p>Welcome to our delectable recipe website, where culinary inspiration meets personal preference! Are you tired of scouring endless recipe pages, only to find dishes that don't quite match your cravings? Say goodbye to the guesswork and hello to a world of customized culinary delights.</p>
+        </form>
+      </div>
+      <h1 class="title">AVAILABLE RECIPES</h1>
+      <div class="recipe-container row m-4">
+        <!-- <div class="col-md-6 col-lg-4 col-sm-6 ">
+          <div class="recipe">
+            <img src="https://edamam-product-images.s3.amazonaws.com/web-img/e47/e47606d52c853e0b24c3acf9191f3ebc.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJHMEUCIQCx8GMPK%2FJQC35N1hYQZrv0HdzflEzEuGua68wULx3jmAIgY65EHdRXBeLWFGeYwmR4oyKjzkj%2BWD%2F%2BC50dLO3wC6gquQUIRhAAGgwxODcwMTcxNTA5ODYiDCps1pYz5asZ6JkwBiqWBQVmi7I1TsdggRR4zD9opRbYm64n54uE13c5u%2BVcZmqruzepRCUFeRzJ9o2flws%2Fqr5ESa1E1UuaTsBRSZO2epaf2xRtoRzbkgW9I5UXfIn0OWbQln%2BL4GbVdUVcaTEZtR99wmYI%2FKuSFviO9svPK55NXekAq2dh3MZb38PXSvODJ9H7bRaFJru7lcM2ZvzSfZAQWj4OkPQlimn8Hr3%2Bnx1Mt0XRcr%2Bo09y4IELkd%2FotpcWDdMc6nKXOfLv6RxROnY%2BHwXI5eNE%2BWgE%2FlxBude9NMPLPb4MOiL20CKDQrv9R4FaBupBYxWjg8xdW1w%2Fk6h4hLfJANiCyXt6ZlVR84%2F9gXpNfgXs7WoFtxSPn2o4xeBwmntMy3VMEoHsmjncLRXuYjYAWXoK8zpyCIA8cvHZNqZcUKGTZDiyr5YK5wRsYCuOEF1UWJLnzkED0DiPTrXmL1YNzrjLv%2BO3gSZAuw2UAOQ1wZ2B0aqPj%2F%2BShPtM2xxEYT7u%2FQzNaUq9pgb%2F8gFjq7NLxuzpdeToL9QLt78gAvRCqqvemzq7kdOB1Ep3027RT%2BNBLn7P2oRSRc7jskjYj7B9AFiJMLbYNUiZDEPQDYlof442iXLdpqZOi%2FpAnT%2ByCQkaNl7LzLtNA1%2Be0ENDW2aCknbm6RkxGIBuP83BrHAjN1GiyUUQkLMZ7eS9bWpHeeBdRTpZi3iiVC3S7Vc6oBhIhgYNm4l%2FMDE4CdUYcEANQhokQdg4iSKD0cdsF17uj%2BHFV%2FNOiXX9vHo8L0feF9mHBe4c6MtNY78csCn2VrvJjQ3Y%2Fa%2FXMsstaEiUMNiEwcSP45kxYfJ90ty94dMIpZK7vqXeWOSnMwpWSbYQxt6DBYp34OLXHPPdyTYvoENa0n9%2B%2FMIe8jK8GOrEBPAcsVh9r%2FUI4J7wfN8fVUZncD4LdJJbUNaEWUVLKf62Ce93FaFILh3NNG2cTZ98RNfF1atl%2BMon2XH%2FqqsWZVxg5GNjbR%2FshsVnO6fCMjdWsE87%2FQ%2BVXmTd32F3Lb%2FGLAJsy%2F1KZePT4EqfzY%2BDXq7EU0mE%2B%2BrQcWLMHxSvsF7aXOwX%2FKk6c%2BSyjEY2Oz6raeaxb5LvNXW2cxkt%2Ff2mMuLikxcY4pDgnTFScdXcc1qmy&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240302T135759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFO54TUY3V%2F20240302%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=847063200041481a44cfbe8421cabf57863ef9f4c60a6ffb703fbbb3611d51aa" alt="food img">
+            <div class="context-info">
+              <h2>chicken 65</h2>
+             <button onclick="showrecipe(this.id)"><a>View Recipe <i class="fa fa-external-link" aria-hidden="true"></i></a></button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+    <h1 id="ingredient-container" class="title">INGREDIENT REQUIRED</h1>
+    <div  class="ingredient-container row m-4">
+        <!-- <div class="col-md-6 col-lg-4 col-sm-6 ">
+          <div class="ingredient">
+            <img src="https://edamam-product-images.s3.amazonaws.com/web-img/e47/e47606d52c853e0b24c3acf9191f3ebc.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJHMEUCIQCx8GMPK%2FJQC35N1hYQZrv0HdzflEzEuGua68wULx3jmAIgY65EHdRXBeLWFGeYwmR4oyKjzkj%2BWD%2F%2BC50dLO3wC6gquQUIRhAAGgwxODcwMTcxNTA5ODYiDCps1pYz5asZ6JkwBiqWBQVmi7I1TsdggRR4zD9opRbYm64n54uE13c5u%2BVcZmqruzepRCUFeRzJ9o2flws%2Fqr5ESa1E1UuaTsBRSZO2epaf2xRtoRzbkgW9I5UXfIn0OWbQln%2BL4GbVdUVcaTEZtR99wmYI%2FKuSFviO9svPK55NXekAq2dh3MZb38PXSvODJ9H7bRaFJru7lcM2ZvzSfZAQWj4OkPQlimn8Hr3%2Bnx1Mt0XRcr%2Bo09y4IELkd%2FotpcWDdMc6nKXOfLv6RxROnY%2BHwXI5eNE%2BWgE%2FlxBude9NMPLPb4MOiL20CKDQrv9R4FaBupBYxWjg8xdW1w%2Fk6h4hLfJANiCyXt6ZlVR84%2F9gXpNfgXs7WoFtxSPn2o4xeBwmntMy3VMEoHsmjncLRXuYjYAWXoK8zpyCIA8cvHZNqZcUKGTZDiyr5YK5wRsYCuOEF1UWJLnzkED0DiPTrXmL1YNzrjLv%2BO3gSZAuw2UAOQ1wZ2B0aqPj%2F%2BShPtM2xxEYT7u%2FQzNaUq9pgb%2F8gFjq7NLxuzpdeToL9QLt78gAvRCqqvemzq7kdOB1Ep3027RT%2BNBLn7P2oRSRc7jskjYj7B9AFiJMLbYNUiZDEPQDYlof442iXLdpqZOi%2FpAnT%2ByCQkaNl7LzLtNA1%2Be0ENDW2aCknbm6RkxGIBuP83BrHAjN1GiyUUQkLMZ7eS9bWpHeeBdRTpZi3iiVC3S7Vc6oBhIhgYNm4l%2FMDE4CdUYcEANQhokQdg4iSKD0cdsF17uj%2BHFV%2FNOiXX9vHo8L0feF9mHBe4c6MtNY78csCn2VrvJjQ3Y%2Fa%2FXMsstaEiUMNiEwcSP45kxYfJ90ty94dMIpZK7vqXeWOSnMwpWSbYQxt6DBYp34OLXHPPdyTYvoENa0n9%2B%2FMIe8jK8GOrEBPAcsVh9r%2FUI4J7wfN8fVUZncD4LdJJbUNaEWUVLKf62Ce93FaFILh3NNG2cTZ98RNfF1atl%2BMon2XH%2FqqsWZVxg5GNjbR%2FshsVnO6fCMjdWsE87%2FQ%2BVXmTd32F3Lb%2FGLAJsy%2F1KZePT4EqfzY%2BDXq7EU0mE%2B%2BrQcWLMHxSvsF7aXOwX%2FKk6c%2BSyjEY2Oz6raeaxb5LvNXW2cxkt%2Ff2mMuLikxcY4pDgnTFScdXcc1qmy&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240302T135759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFO54TUY3V%2F20240302%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=847063200041481a44cfbe8421cabf57863ef9f4c60a6ffb703fbbb3611d51aa" alt="food img">
+            <div class="ingredient-info">
+              <h4>Lorem, ipsum.</h4>
+              <p>boiled water</p>
+            </div>
+          </div>
+        </div> -->
+     </div>
+
+     <h1 class="title">PROCEDURE</h1>
+    <div class="procedure-container">
+      <!-- <P><span class="indicator">step 1 : </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi totam minima, reiciendis cum est.</P> -->
+      
+     
+
+    </div>
+
+    
+
+    <script src="./bootstrap/js/app.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,160 @@
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.intro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.344);
+    padding: 0%;
+}
+
+.bgvid{
+    background: rgba(0, 0, 0, 0.353);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+.Container{
+    width: 50vw;
+    margin: auto;
+    border: 2px solid black;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black,-2px -2px 5px black;
+}
+
+.Container input{
+    height: 40px;
+    width: 90%;
+    border: 2px solid black;
+    background-color: transparent;
+    margin: 2% auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.Container input:focus{
+    background: rgba(255, 255, 255, 0.331);
+}
+
+.searchbtn{
+    height: 40px;
+    border: 2px solid black;
+    background-color:transparent;
+    display: block;
+    margin: 2%  auto;
+    transition: all .5s;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.searchbtn:hover{
+    color: white;
+    background-color: black;
+}
+
+.Container p{
+    width: 50%;
+    min-width: 250px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    color: black;
+}
+.recipe-container, .ingredient-container{
+    border-bottom: 2px solid black;
+    padding-bottom: 5%;
+}
+.recipe{
+    padding: 2%;
+    transition: .2s;
+}
+
+.recipe:hover{
+    scale: 1.05;
+}
+
+.recipe img{
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.context-info{
+    width: 100%;
+}
+.context-info h2{
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.context-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.context-info button{
+   width: 100%;
+   background: transparent;
+   
+}
+
+.context-info button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* recipe ingredient */
+
+
+
+
+.title{
+    text-align: center;
+}
+
+.ingredient{
+    padding: 1%;
+}
+
+.ingredient img{
+    width: 98%;
+}
+
+.ingredient-info{
+    text-align: center;
+}
+
+
+.procedure-container{
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.indicator{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+@media all and (max-width:700px) {
+    .Container, .procedure-container{
+        width: 80vw;
+        margin: auto;
+    }
+}
